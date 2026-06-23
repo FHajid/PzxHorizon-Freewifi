@@ -5,22 +5,72 @@ export default function LoginSuccess() {
   const navigate = useNavigate();
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-[#060910] text-center px-4">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-[#060910] text-center px-4 overflow-hidden antialiased">
+      
+      {/* KONTEN UTAMA SUKSES */}
       <div className="h-16 w-16 bg-green-500/10 text-green-400 rounded-full flex items-center justify-center mb-4 border border-green-500/20 text-2xl">
         ✓
       </div>
       <h1 className="text-2xl font-bold text-white mb-2">Login Successful!</h1>
-      <p className="text-sm text-gray-400 max-w-sm mb-6">
+      <p className="text-sm text-gray-400 max-w-sm mb-6 leading-relaxed">
         Welcome back, Captain. Your dashboard and vessel metrics are now calibrated and ready.
       </p>
       
-      {/* Tombol untuk kembali ke Home jika diperlukan */}
+      {/* ==========================================================
+          [BARU] 3 LINK UTAMA DI ATAS
+          ========================================================== */}
+      <div className="mb-8 w-full max-w-md">
+        <span className="text-[10px] font-mono font-bold tracking-widest text-[#e2a862] uppercase block mb-3 text-center">
+          Main Resources
+        </span>
+        <div className="grid grid-cols-3 gap-3">
+          <a 
+            href="#link-1" 
+            className="block p-3 rounded-xl border border-white/5 bg-[#0b111e]/40 hover:border-[#e2a862]/30 hover:bg-white/5 transition-all text-xs font-semibold text-white tracking-wide"
+          >
+            Vessel Metrics
+          </a>
+          <a 
+            href="#link-2" 
+            className="block p-3 rounded-xl border border-white/5 bg-[#0b111e]/40 hover:border-[#e2a862]/30 hover:bg-white/5 transition-all text-xs font-semibold text-white tracking-wide"
+          >
+            Weather Map
+          </a>
+          <a 
+            href="#link-3" 
+            className="block p-3 rounded-xl border border-white/5 bg-[#0b111e]/40 hover:border-[#e2a862]/30 hover:bg-white/5 transition-all text-xs font-semibold text-white tracking-wide"
+          >
+            Crew Portal
+          </a>
+        </div>
+      </div>
+
+      {/* TOMBOL UTAMA KEMBALI */}
       <button 
         onClick={() => navigate('/')}
-        className="text-xs font-bold uppercase tracking-wider text-[#e2a862] hover:underline"
+        className="text-xs font-bold uppercase tracking-widest text-[#e2a862] hover:text-[#d49953] transition-colors py-2 px-4 rounded-lg border border-[#e2a862]/10 bg-[#e2a862]/5 hover:bg-[#e2a862]/10"
       >
-        ← Back to Dashboard
+        ← Back to Portal
       </button>
+
+      {/* ==========================================================
+          [BARU] 2 LINK TAMBAHAN DI BAWAH
+          ========================================================== */}
+      <div className="mt-10 pt-4 border-t border-white/5 w-full max-w-xs flex justify-center gap-6">
+        <a 
+          href="#link-4" 
+          className="text-[11px] text-gray-500 hover:text-gray-300 font-medium transition-colors hover:underline"
+        >
+          Network Support
+        </a>
+        <a 
+          href="#link-5" 
+          className="text-[11px] text-gray-500 hover:text-gray-300 font-medium transition-colors hover:underline"
+        >
+          Privacy Policy
+        </a>
+      </div>
+
     </div>
   );
 }
