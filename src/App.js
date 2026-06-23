@@ -1,16 +1,18 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/home';
-import LoginSuccess from './pages/login-succes'; // <-- Import halaman sukses
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/home'; // atau sesuaikan dengan path file Home kamu
+import LoginSuccess from './pages/login-succes'; // sesuaikan juga jika ada halaman sukses
 
-export default function App() {
+function App() {
   return (
-    <Router>
+    // Tambahkan properti basename di bawah ini 👇
+    <BrowserRouter basename="/PzxHorizon-Freewifi">
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* Alamat URL untuk halaman sukses login */}
+        {/* Route lainnya tetap seperti biasa */}
         <Route path="/login-success" element={<LoginSuccess />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
+
+export default App;
