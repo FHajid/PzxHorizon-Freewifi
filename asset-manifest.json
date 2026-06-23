@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.987967ae.css",
+    "main.js": "/static/js/main.8f336d99.js",
+    "static/js/453.6e5a33b9.chunk.js": "/static/js/453.6e5a33b9.chunk.js",
+    "static/media/logo-Pzx.png": "/static/media/logo-Pzx.89b08e813ed37ce5ca47.png",
+    "index.html": "/index.html",
+    "main.987967ae.css.map": "/static/css/main.987967ae.css.map",
+    "main.8f336d99.js.map": "/static/js/main.8f336d99.js.map",
+    "453.6e5a33b9.chunk.js.map": "/static/js/453.6e5a33b9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.987967ae.css",
+    "static/js/main.8f336d99.js"
+  ]
+}
