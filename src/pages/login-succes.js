@@ -17,9 +17,28 @@ export default function LoginSuccess() {
       </p>
       
       {/* ==========================================================
-          [BARU] 3 LINK UTAMA DI ATAS
+          [TEMPAT KODE BARU KAMU] 
+          Silakan selipkan komponen atau element baru di dalam div ini.
+          Jarak atas-bawah sudah diatur aman dengan py-8.
           ========================================================== */}
-      <div className="mb-8 w-full max-w-md">
+      <div className="w-full max-w-md py-8 my-2 border border-dashed border-white/5 rounded-2xl bg-white/[0.01]">
+        
+        {/* 
+            👉 TARUH KODE BARU KAMU DI SINI 
+            Contoh: <AeroSphereShowcase /> atau <MaterialInventory /> 
+        */}
+        <p className="text-[11px] font-mono text-gray-600 tracking-widest uppercase animate-pulse">
+          [ INSERT YOUR CODE/PASSWORD/QR CODE HERE ]
+        </p>
+
+      </div>
+      {/* ========================================================== */}
+
+
+      {/* ==========================================================
+          3 LINK UTAMA DI ATAS
+          ========================================================== */}
+      <div className="mt-4 mb-8 w-full max-w-md">
         <span className="text-[10px] font-mono font-bold tracking-widest text-[#e2a862] uppercase block mb-3 text-center">
           Main Resources
         </span>
@@ -54,7 +73,7 @@ export default function LoginSuccess() {
       </button>
 
       {/* ==========================================================
-          [BARU] 2 LINK TAMBAHAN DI BAWAH
+          2 LINK TAMBAHAN DI BAWAH
           ========================================================== */}
       <div className="mt-10 pt-4 border-t border-white/5 w-full max-w-xs flex justify-center gap-6">
         <a 
