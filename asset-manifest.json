@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/PzxHorizon-Freewifi/static/css/main.987967ae.css",
-    "main.js": "/PzxHorizon-Freewifi/static/js/main.25b58a77.js",
+    "main.css": "/PzxHorizon-Freewifi/static/css/main.0cd2389f.css",
+    "main.js": "/PzxHorizon-Freewifi/static/js/main.2ac4a082.js",
     "static/js/453.6e5a33b9.chunk.js": "/PzxHorizon-Freewifi/static/js/453.6e5a33b9.chunk.js",
     "static/media/logo-Pzx.png": "/PzxHorizon-Freewifi/static/media/logo-Pzx.89b08e813ed37ce5ca47.png",
     "index.html": "/PzxHorizon-Freewifi/index.html",
-    "main.987967ae.css.map": "/PzxHorizon-Freewifi/static/css/main.987967ae.css.map",
-    "main.25b58a77.js.map": "/PzxHorizon-Freewifi/static/js/main.25b58a77.js.map",
+    "main.0cd2389f.css.map": "/PzxHorizon-Freewifi/static/css/main.0cd2389f.css.map",
+    "main.2ac4a082.js.map": "/PzxHorizon-Freewifi/static/js/main.2ac4a082.js.map",
     "453.6e5a33b9.chunk.js.map": "/PzxHorizon-Freewifi/static/js/453.6e5a33b9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.987967ae.css",
-    "static/js/main.25b58a77.js"
+    "static/css/main.0cd2389f.css",
+    "static/js/main.2ac4a082.js"
   ]
 }
