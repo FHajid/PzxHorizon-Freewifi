@@ -44,22 +44,29 @@ export default function LoginSuccess() {
         </span>
         <div className="grid grid-cols-3 gap-3">
           <a 
-            href="#link-1" 
+            href="https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="block p-3 rounded-xl border border-white/5 bg-[#0b111e]/40 hover:border-[#e2a862]/30 hover:bg-white/5 transition-all text-xs font-semibold text-white tracking-wide"
           >
-            Vessel Metrics
+            Singapore Arrival
           </a>
           <a 
-            href="#link-2" 
+            href="https://allindonesia.imigrasi.go.id/" 
             className="block p-3 rounded-xl border border-white/5 bg-[#0b111e]/40 hover:border-[#e2a862]/30 hover:bg-white/5 transition-all text-xs font-semibold text-white tracking-wide"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Weather Map
+            Indonesia Arrival
           </a>
           <a 
-            href="#link-3" 
+            href="https://www.imi.gov.my/index.php/en/pengumuman/malaysia-digital-arrival-card-mdac//" 
             className="block p-3 rounded-xl border border-white/5 bg-[#0b111e]/40 hover:border-[#e2a862]/30 hover:bg-white/5 transition-all text-xs font-semibold text-white tracking-wide"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Crew Portal
+
+            Malaysia Arrival
           </a>
         </div>
       </div>
