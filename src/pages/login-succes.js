@@ -33,7 +33,7 @@ export default function LoginSuccess() {
         <div className="w-full pt-2">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
             <a 
-              href="https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card" 
+              href="https://eservices.ica.gov.sg/sgarrivalcard/" 
               target="_blank"
               rel="noopener noreferrer"
               className="block p-3.5 rounded-xl border border-white/5 bg-[#0b111e]/40 hover:bg-[#1E7F4E] transition-all text-xs font-semibold text-white tracking-wide text-center mx-16 sm:mx-0"
@@ -49,7 +49,7 @@ export default function LoginSuccess() {
               Indonesia Arrival
             </a>
             <a 
-              href="https://www.imi.gov.my/index.php/en/pengumuman/malaysia-digital-arrival-card-mdac//" 
+              href="https://imigresen-online.imi.gov.my/mdac/main" 
               target="_blank"
               rel="noopener noreferrer"
               className="block p-3.5 rounded-xl border border-white/5 bg-[#0b111e]/40 hover:bg-[#1E7F4E] transition-all text-xs font-semibold text-white tracking-wide text-center mx-16 sm:mx-0"
