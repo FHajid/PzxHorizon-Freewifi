@@ -9,7 +9,7 @@ export default function LoginSuccess() {
     <div className="flex flex-col items-center justify-center min-h-screen bg-[#191628] text-center px-4 overflow-hidden antialiased">
       
       {/* WRAPPER UTAMA */}
-      <div className="w-full max-w-md flex flex-col items-center space-y-6">
+      <div className="w-full max-w-md flex flex-col items-center space-y-16">
         
         {/* KONTEN UTAMA SUKSES */}
         <div className="flex flex-col items-center gap-2 text-center w-full max-w-[350px]">
@@ -18,27 +18,25 @@ export default function LoginSuccess() {
             <h1 className="text-xl font-medium tracking-wide text-white leading-none">
               Welcome to PZXHorizon Network
             </h1>
-            
           </div>
         </div>
 
-        {/* STATUS INDIKATOR */}
-        <div className="flex flex-col items-center">
+        {/* STATUS INDIKATOR (🛠️ mt-24 diganti ke mt-2 agar jaraknya padat & ideal) */}
+        <div className="flex flex-col items-center mt-28">
           <div className="h-16 w-16 bg-green-500/10 text-green-400 rounded-full flex items-center justify-center mb-3 border border-green-500/20 text-2xl">
             ✓
           </div>
           <h1 className="text-2xl font-bold text-white">Login Successful!</h1>
         </div>
 
-        {/* GRID TOMBOL ARRIVAL (DIUBAH BIAR RESPONSIF) */}
+        {/* GRID TOMBOL ARRIVAL */}
         <div className="w-full pt-2">
-          {/* grid-cols-1 (di HP berbaris ke bawah) | sm:grid-cols-3 (di laptop berbaris ke samping) */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
             <a 
               href="https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card" 
               target="_blank"
               rel="noopener noreferrer"
-              className="block p-3.5 rounded-xl border border-white/5 bg-[#0b111e]/40  hover:bg-[#1E7F4E] transition-all text-xs font-semibold text-white tracking-wide text-center mx-16 "
+              className="block p-3.5 rounded-xl border border-white/5 bg-[#0b111e]/40 hover:bg-[#1E7F4E] transition-all text-xs font-semibold text-white tracking-wide text-center mx-16 sm:mx-0"
             >
               Singapore Arrival
             </a>
@@ -46,7 +44,7 @@ export default function LoginSuccess() {
               href="https://allindonesia.imigrasi.go.id/" 
               target="_blank"
               rel="noopener noreferrer"
-              className="block p-3.5 rounded-xl border border-white/5 bg-[#0b111e]/40 hover:bg-[#1E7F4E] transition-all text-xs font-semibold text-white tracking-wide text-center mx-16"
+              className="block p-3.5 rounded-xl border border-white/5 bg-[#0b111e]/40 hover:bg-[#1E7F4E] transition-all text-xs font-semibold text-white tracking-wide text-center mx-16 sm:mx-0"
             >
               Indonesia Arrival
             </a>
@@ -54,18 +52,17 @@ export default function LoginSuccess() {
               href="https://www.imi.gov.my/index.php/en/pengumuman/malaysia-digital-arrival-card-mdac//" 
               target="_blank"
               rel="noopener noreferrer"
-              className="block p-3.5 rounded-xl border border-white/5 bg-[#0b111e]/40  hover:bg-[#1E7F4E] transition-all text-xs font-semibold text-white tracking-wide text-center mx-16 h"
+              className="block p-3.5 rounded-xl border border-white/5 bg-[#0b111e]/40 hover:bg-[#1E7F4E] transition-all text-xs font-semibold text-white tracking-wide text-center mx-16 sm:mx-0"
             >
               Malaysia Arrival
             </a>
           </div>
-
-          
         </div>
 
       </div>
 
-      <div className="mt-8  text-center max-w-xs">
+      {/* FOOTER NOTE (Posisi di luar wrapper utama agar konsisten di paling bawah) */}
+      <div className="mt-12 text-center max-w-xs">
         <p className="text-[10px] font-medium text-gray-500 tracking-wide leading-relaxed">
           © 2026 PZXHorizon. All rights reserved. Unauthorized use of this network is strictly prohibited.
         </p>

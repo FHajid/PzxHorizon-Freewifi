@@ -27,7 +27,7 @@ export default function Home() {
       <div className="absolute -top-40 -right-40 -z-10 h-[300px] w-[300px] rounded-full bg-purple-500/[0.02] blur-[100px]" />
 
       {/* BRANDING LOGO */}
-      <div className="flex flex-col items-center gap-2 mt-52 text-center w-[350px]">
+      <div className="flex flex-col items-center gap-2 mt-44 text-center w-[350px]">
         <img src={LogoPzx} alt="PZX Horizon Logo" className="h-18 w-auto mb-2" />
         <div className="flex flex-col space-y-1">
           <h1 className="text-xl font-medium tracking-wide text-white leading-none">
